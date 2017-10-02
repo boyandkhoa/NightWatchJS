@@ -1,12 +1,12 @@
 {
   "src_folders": "src",
-  "output_folder": "./bin",
+  "output_folder": "bin",
   "selenium": {
     "start_process": true,
     "server_path": "",
     "port": 4444,
     "cli_args": {
-      "webdriver.chrome.driver": "./bin/chromedriver.exe"
+      "webdriver.chrome.driver": ""
     }
   },
   "test_settings": {
