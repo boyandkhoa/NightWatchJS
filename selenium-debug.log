@@ -1,0 +1,32 @@
+19:30:06.698 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+19:30:06.700 INFO - Launching a standalone Selenium Server
+2017-10-02 19:30:06.740:INFO::main: Logging initialized @448ms to org.seleniumhq.jetty9.util.log.StdErrLog
+19:30:06.804 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+19:30:06.805 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+19:30:06.805 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+19:30:06.805 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+19:30:06.806 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
+2017-10-02 19:30:06.866:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-10-02 19:30:06.906:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@1283bb96{/,null,AVAILABLE}
+2017-10-02 19:30:06.997:INFO:osjs.AbstractConnector:main: Started ServerConnector@445b295b{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-10-02 19:30:06.997:INFO:osjs.Server:main: Started @705ms
+19:30:06.997 INFO - Selenium Server is up and running
+19:30:07.257 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+19:30:07.297 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Homepage, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]])
+19:30:07.309 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Homepage, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]
+Starting ChromeDriver 2.28.455520 (cc17746adff54984afff480136733114c6b3704b) on port 40978
+Only local connections are allowed.
+19:30:16.606 INFO - Detected dialect: OSS
+19:30:16.640 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Homepage, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]]
+19:30:16.667 INFO - Executing: [get: http://www.google.com])
+19:30:50.295 INFO - Done: [get: http://www.google.com]
+19:30:50.306 INFO - Executing: [find elements: By.cssSelector: body])
+19:30:50.378 INFO - Done: [find elements: By.cssSelector: body]
+19:30:50.386 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (df461769fc7a452ba189deb76169a430)] -> css selector: body]])
+19:30:50.429 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (df461769fc7a452ba189deb76169a430)] -> css selector: body]]
+19:30:50.439 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+19:30:50.471 INFO - Done: [find element: By.cssSelector: input[type=text]]
+19:30:50.478 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on XP (df461769fc7a452ba189deb76169a430)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h, ?]])
+19:30:53.247 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on XP (df461769fc7a452ba189deb76169a430)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h, ?]]

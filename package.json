@@ -1,0 +1,15 @@
+{
+  "name": "automation",
+  "version": "0.1.0",
+  "description": "Automation for RethinkWorkflow.com",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.10.3"
+  },
+  "scripts": {
+    "start": "nightwatch --env"
+  },
+  "env": {
+    "node": true
+  }
+}

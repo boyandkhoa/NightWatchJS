@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="homepage"
+    errors="1" failures="0" hostname="" id="" package="homepage" skipped="0"
+    tests="1" time="0.1300" timestamp="Mon, 02 Oct 2017 11:52:16 GMT">
+  
+    <testcase name="Demo test Google" classname="homepage" time="0.1300" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Homepage / Demo test Google]:
+
+  TypeError: Cannot read property 'pause' of undefined
+    at Object.Demo test Google (D:\DOWNLOADS\KTPM\src\homepage.js:10:4)
+    at Module.call (D:\DOWNLOADS\KTPM\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at D:\DOWNLOADS\KTPM\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (D:\DOWNLOADS\KTPM\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (D:\DOWNLOADS\KTPM\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (D:\DOWNLOADS\KTPM\node_modules\q\q.js:796:13)
+    at D:\DOWNLOADS\KTPM\node_modules\q\q.js:556:49
+    at runSingle (D:\DOWNLOADS\KTPM\node_modules\q\q.js:137:13)
+    at flush (D:\DOWNLOADS\KTPM\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:95:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
