@@ -3,6 +3,6 @@ module.exports = {
     browser
       .url('http://www.google.com')
       .waitForElementVisible('body', 1000)
-      .setValue('input[type=text]', ['nightwatch', browser.Keys.ENTER]);
+      .setValue('input[type=text]', ['nightwatchjs', browser.Keys.ENTER]);
   }
 };
